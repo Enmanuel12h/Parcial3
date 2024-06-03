@@ -1,0 +1,120 @@
+﻿@model EnmaLibrary.Models.OrderDetailsModel
+
+@{
+    ViewData["Title"] = "Create";
+    var bookPricesJson = Json.Serialize(ViewBag.BookPrices);
+}
+
+<h1>Creando un detalle</h1>
+
+@if (TempData["message"] != null)
+{
+    <div class="alert alert-primary" role="alert">
+        @TempData["message"]
+    </div>
+}
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-3">
+                <label asp-for="OrderId" class="form-label">Orden ID</label>
+                <input asp-for="OrderId" type="text" class="form-control" readonly="readonly" id="CustomerOrderIdInput" />
+                <span asp-validation-for="OrderId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BookId" class="control-label"></label>
+                <select asp-for="BookId" class="form-control" asp-items="@ViewBag.Books">
+                    <option value="">-- Select a book --</option>
+                </select>
+                <span asp-validation-for="BookId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UnitPrice" class="control-label"></label>
+                <input asp-for="UnitPrice" class="form-control" readonly />
+                <span asp-validation-for="UnitPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quantity" class="control-label"></label>
+                <input asp-for="Quantity" class="form-control" />
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="TotalPrice" class="control-label">Total Price</label>
+                <input id="TotalPrice" class="form-control" readonly />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a id="regresarLink" class="btn btn-secondary">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        // Obtener la URL actual
+        var url = window.location.pathname;
+
+        // Utilizar una expresión regular para extraer solo el ID de la URL
+        var id = url.match(/\d+/)[0];
+
+        // Asignar el ID al elemento con el ID 'CustomerOrderIdInput'
+        document.getElementById('CustomerOrderIdInput').value = id;
+
+        // Agregar un event listener al elemento con el ID 'regresarLink'
+        document.getElementById('regresarLink').addEventListener('click', function () {
+            // Construir la URL de regreso utilizando el ID extraído
+            var url = '@Url.Action("GetAllOrderDetailsByOrderId", "Orders", new { id = "PLACEHOLDER" })';
+            url = url.replace('PLACEHOLDER', id);
+
+            // Redirigir a la URL de regreso
+            window.location.href = url;
+        });
+
+        function confirmAction() {
+            if (confirm('¿Está seguro de añadir este detalle a la orden?')) {
+                return true;
+            } else {
+                var url = '@Url.Action("GetAllOrderDetailsByOrderId", "Orders", new { id = "PLACEHOLDER" })';
+                url = url.replace('PLACEHOLDER', id);
+                window.location.href = url;
+                return false;
+            }
+        }
+
+        // Inicializar el objeto de precios de libros
+        var bookPrices = @Html.Raw(bookPricesJson);
+
+        // Manejar el cambio de selección del libro
+        document.getElementById('BookId').addEventListener('change', function () {
+            var selectedBookId = this.value;
+            if (selectedBookId && bookPrices[selectedBookId]) {
+                document.getElementById('UnitPrice').value = bookPrices[selectedBookId];
+                updateTotalPrice();
+            } else {
+                document.getElementById('UnitPrice').value = '';
+                document.getElementById('TotalPrice').value = '';
+            }
+        });
+
+        // Manejar el cambio de cantidad
+        document.getElementById('Quantity').addEventListener('input', function () {
+            updateTotalPrice();
+        });
+
+        function updateTotalPrice() {
+            var quantity = parseFloat(document.getElementById('Quantity').value) || 0;
+            var unitPrice = parseFloat(document.getElementById('UnitPrice').value) || 0;
+            var totalPrice = quantity * unitPrice;
+            document.getElementById('TotalPrice').value = totalPrice.toFixed(2);
+        }
+    </script>
+}

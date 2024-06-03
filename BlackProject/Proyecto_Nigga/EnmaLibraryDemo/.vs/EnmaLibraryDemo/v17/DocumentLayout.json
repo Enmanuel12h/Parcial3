@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\BlackProject\\Proyecto_Nigga\\EnmaLibraryDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE6F740-D2D7-49DC-8F6E-561EA5CA009F}|EnmaLibrary\\EnmaLibrary.csproj|c:\\users\\pc\\desktop\\blackproject\\proyecto_nigga\\enmalibrarydemo\\enmalibrary\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AE6F740-D2D7-49DC-8F6E-561EA5CA009F}|EnmaLibrary\\EnmaLibrary.csproj|solutionrelative:enmalibrary\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE6F740-D2D7-49DC-8F6E-561EA5CA009F}|EnmaLibrary\\EnmaLibrary.csproj|c:\\users\\pc\\desktop\\blackproject\\proyecto_nigga\\enmalibrarydemo\\enmalibrary\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AE6F740-D2D7-49DC-8F6E-561EA5CA009F}|EnmaLibrary\\EnmaLibrary.csproj|solutionrelative:enmalibrary\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE6F740-D2D7-49DC-8F6E-561EA5CA009F}|EnmaLibrary\\EnmaLibrary.csproj|c:\\users\\pc\\desktop\\blackproject\\proyecto_nigga\\enmalibrarydemo\\enmalibrary\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AE6F740-D2D7-49DC-8F6E-561EA5CA009F}|EnmaLibrary\\EnmaLibrary.csproj|solutionrelative:enmalibrary\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE6F740-D2D7-49DC-8F6E-561EA5CA009F}|EnmaLibrary\\EnmaLibrary.csproj|c:\\users\\pc\\desktop\\blackproject\\proyecto_nigga\\enmalibrarydemo\\enmalibrary\\views\\orderdetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AE6F740-D2D7-49DC-8F6E-561EA5CA009F}|EnmaLibrary\\EnmaLibrary.csproj|solutionrelative:enmalibrary\\views\\orderdetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE6F740-D2D7-49DC-8F6E-561EA5CA009F}|EnmaLibrary\\EnmaLibrary.csproj|c:\\users\\pc\\desktop\\blackproject\\proyecto_nigga\\enmalibrarydemo\\enmalibrary\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AE6F740-D2D7-49DC-8F6E-561EA5CA009F}|EnmaLibrary\\EnmaLibrary.csproj|solutionrelative:enmalibrary\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE6F740-D2D7-49DC-8F6E-561EA5CA009F}|EnmaLibrary\\EnmaLibrary.csproj|c:\\users\\pc\\desktop\\blackproject\\proyecto_nigga\\enmalibrarydemo\\enmalibrary\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AE6F740-D2D7-49DC-8F6E-561EA5CA009F}|EnmaLibrary\\EnmaLibrary.csproj|solutionrelative:enmalibrary\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE6F740-D2D7-49DC-8F6E-561EA5CA009F}|EnmaLibrary\\EnmaLibrary.csproj|c:\\users\\pc\\desktop\\blackproject\\proyecto_nigga\\enmalibrarydemo\\enmalibrary\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AE6F740-D2D7-49DC-8F6E-561EA5CA009F}|EnmaLibrary\\EnmaLibrary.csproj|solutionrelative:enmalibrary\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE6F740-D2D7-49DC-8F6E-561EA5CA009F}|EnmaLibrary\\EnmaLibrary.csproj|c:\\users\\pc\\desktop\\blackproject\\proyecto_nigga\\enmalibrarydemo\\enmalibrary\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AE6F740-D2D7-49DC-8F6E-561EA5CA009F}|EnmaLibrary\\EnmaLibrary.csproj|solutionrelative:enmalibrary\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\BlackProject\\Proyecto_Nigga\\EnmaLibraryDemo\\EnmaLibrary\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "EnmaLibrary\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\BlackProject\\Proyecto_Nigga\\EnmaLibraryDemo\\EnmaLibrary\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "EnmaLibrary\\Views\\Users\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T22:10:46.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\BlackProject\\Proyecto_Nigga\\EnmaLibraryDemo\\EnmaLibrary\\Views\\Customers\\Index.cshtml",
+              "RelativeDocumentMoniker": "EnmaLibrary\\Views\\Customers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\BlackProject\\Proyecto_Nigga\\EnmaLibraryDemo\\EnmaLibrary\\Views\\Customers\\Index.cshtml",
+              "RelativeToolTip": "EnmaLibrary\\Views\\Customers\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T22:10:07.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\BlackProject\\Proyecto_Nigga\\EnmaLibraryDemo\\EnmaLibrary\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "EnmaLibrary\\Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\BlackProject\\Proyecto_Nigga\\EnmaLibraryDemo\\EnmaLibrary\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "EnmaLibrary\\Views\\Books\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T22:08:43.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\BlackProject\\Proyecto_Nigga\\EnmaLibraryDemo\\EnmaLibrary\\Views\\OrderDetails\\Index.cshtml",
+              "RelativeDocumentMoniker": "EnmaLibrary\\Views\\OrderDetails\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\BlackProject\\Proyecto_Nigga\\EnmaLibraryDemo\\EnmaLibrary\\Views\\OrderDetails\\Index.cshtml",
+              "RelativeToolTip": "EnmaLibrary\\Views\\OrderDetails\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T22:07:25.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\BlackProject\\Proyecto_Nigga\\EnmaLibraryDemo\\EnmaLibrary\\Views\\Orders\\Delete.cshtml",
+              "RelativeDocumentMoniker": "EnmaLibrary\\Views\\Orders\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\BlackProject\\Proyecto_Nigga\\EnmaLibraryDemo\\EnmaLibrary\\Views\\Orders\\Delete.cshtml",
+              "RelativeToolTip": "EnmaLibrary\\Views\\Orders\\Delete.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwCkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T20:54:18.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\BlackProject\\Proyecto_Nigga\\EnmaLibraryDemo\\EnmaLibrary\\Views\\Orders\\Create.cshtml",
+              "RelativeDocumentMoniker": "EnmaLibrary\\Views\\Orders\\Create.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\BlackProject\\Proyecto_Nigga\\EnmaLibraryDemo\\EnmaLibrary\\Views\\Orders\\Create.cshtml",
+              "RelativeToolTip": "EnmaLibrary\\Views\\Orders\\Create.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACcAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T20:52:02.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\BlackProject\\Proyecto_Nigga\\EnmaLibraryDemo\\EnmaLibrary\\Views\\Orders\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EnmaLibrary\\Views\\Orders\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\BlackProject\\Proyecto_Nigga\\EnmaLibraryDemo\\EnmaLibrary\\Views\\Orders\\Edit.cshtml",
+              "RelativeToolTip": "EnmaLibrary\\Views\\Orders\\Edit.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T20:50:54.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\BlackProject\\Proyecto_Nigga\\EnmaLibraryDemo\\EnmaLibrary\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "EnmaLibrary\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\BlackProject\\Proyecto_Nigga\\EnmaLibraryDemo\\EnmaLibrary\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "EnmaLibrary\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAF4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T20:52:00.138Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

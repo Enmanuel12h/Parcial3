@@ -1,0 +1,66 @@
+﻿@model IEnumerable<EnmaLibrary.Models.OrderDetailsModel>
+
+@{
+    ViewData["Title"] = "GetAllOrderDetailsByOrderId";
+}
+
+<h1>Detalles de la Orden</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-info" asp-controller="OrderDetails" asp-route-id="@ViewBag.OrderId">Agregar Detalle al Pedido</a> |
+    <a class="btn btn-warning mx-2" asp-action="Index" asp-controller="Orders" >Volver a Pedidos</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BookId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnitPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalPrice)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BookId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnitPrice)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalPrice)
+                </td>
+            <td>
+                  <a class="btn btn-warning mx-2" asp-action="Edit" asp-controller="OrderDetails" asp-route-id="@item.Id">Editar</a>
+                  |
+                  <a class="btn btn-danger mx-2" asp-action="Delete" asp-controller="OrderDetails" asp-route-id="@item.Id">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
