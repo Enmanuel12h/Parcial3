@@ -1,5 +1,7 @@
 GRUPO NUMERO 6
+
 Sistema a realizar: Gestión de una librería
+
 INTEGRANTES:
 
 JOSE ENMANUEL MEJIA HENRIQUEZ U20210506
